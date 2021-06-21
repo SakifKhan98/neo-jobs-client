@@ -25,7 +25,7 @@ const AddJobs = () => {
     formData.append("description", info.description);
     formData.append("salary", info.salary);
 
-    fetch("http://localhost:5000/addJobs", {
+    fetch("https://rocky-river-97926.herokuapp.com/addJobs", {
       method: "POST",
       body: formData,
     })
