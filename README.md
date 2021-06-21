@@ -2,8 +2,9 @@
 
 ## Developed using MERN Stack
 
-There is a release rollout going on in my current company. So, I did not get the time to
-implement all the features as described in the Instruction PDF and there are some bugs in this web app.
+### Request to Consider
+
+There is a release rollout going on in my current company. I have to work there hard for the whole week and even on weekend. So, I did not get the time to implement all the features as described in the Instruction PDF and there are some bugs in this web app as I developed it in a few hours.
 
 But I can explain how I can implement the other features mentioned in the instruction manual if necessary.
 
