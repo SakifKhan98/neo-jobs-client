@@ -18,6 +18,17 @@ and CVC with Zip code can be any random numbers.
 
 Then the user can post jobs which will be shown in the Home Page.
 
+## Technology Used:
+
+1. ReactJS
+2. Ant Design
+3. NodeJS
+4. ExpressJS
+5. MongoDB
+6. Firebase
+7. Heroku
+   & Etc.
+
 ## Available Scripts
 
 In the project directory, you can run:
