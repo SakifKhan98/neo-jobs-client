@@ -49,7 +49,7 @@ const PaymentForm = () => {
       console.log("[error]", error);
       alert("[error]", error);
     } else {
-      fetch("http://localhost:5000/addEmployer", {
+      fetch("https://rocky-river-97926.herokuapp.com/addEmployer", {
         method: "POST",
         body: formData,
       })
