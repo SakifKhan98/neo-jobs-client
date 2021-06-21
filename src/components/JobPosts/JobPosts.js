@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import JobPostsSingle from "../JobPostsSingle.js/JobPostsSingle";
 import { Col, Pagination, Row } from "antd";
-import { fakeData } from "../../fakeData/fakeData";
 
 const pageSize = 20;
 
