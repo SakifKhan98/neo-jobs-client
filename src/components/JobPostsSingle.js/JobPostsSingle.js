@@ -5,6 +5,7 @@ import { UserContext } from "../../App";
 
 const JobPostsSingle = ({ job }) => {
   const { name, description, salary, _id } = job;
+  // eslint-disable-next-line no-unused-vars
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
   return (
     <div style={{ padding: "10px" }}>

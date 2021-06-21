@@ -4,6 +4,7 @@ import { useHistory } from "react-router";
 import { UserContext } from "../../App";
 
 const PaymentForm = () => {
+  // eslint-disable-next-line no-unused-vars
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
   const [info, setInfo] = useState({});
   const history = useHistory();

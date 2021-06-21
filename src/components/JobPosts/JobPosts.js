@@ -13,6 +13,7 @@ const JobPosts = () => {
       .then((res) => res.json())
       .then((data) => setJobs(data));
     console.log(jobs);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   //   let data = [];
   const [state, setState] = useState({

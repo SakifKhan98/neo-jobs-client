@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   // eslint-disable-next-line no-unused-vars
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+  // eslint-disable-next-line no-unused-vars
   const [isEmployer, setIsEmployer] = useState(false);
 
   useEffect(() => {
@@ -17,6 +18,7 @@ const Navbar = () => {
     })
       .then((res) => res.json())
       .then((data) => setIsEmployer(data));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

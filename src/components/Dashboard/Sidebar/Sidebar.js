@@ -13,6 +13,7 @@ import { UserContext } from "../../../App";
 const Sidebar = () => {
   // eslint-disable-next-line no-unused-vars
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+  // eslint-disable-next-line no-unused-vars
   const [isEmployer, setIsEmployer] = useState(false);
 
   useEffect(() => {
@@ -23,6 +24,7 @@ const Sidebar = () => {
     })
       .then((res) => res.json())
       .then((data) => setIsEmployer(data));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

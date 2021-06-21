@@ -53,6 +53,7 @@ const Login = () => {
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
   const history = useHistory();
   const location = useLocation();
+  // eslint-disable-next-line no-unused-vars
   const { from } = location.state || { from: { pathname: "/" } };
   const classes = useStyles();
   const socialClasses = socialStyles();
@@ -65,6 +66,7 @@ const Login = () => {
     })
       .then((res) => res.json())
       .then((data) => setIsEmployer(data));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (firebase.apps.length === 0) {
