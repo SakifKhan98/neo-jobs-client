@@ -10,7 +10,7 @@ const Navbar = () => {
   const [isEmployer, setIsEmployer] = useState(false);
 
   useEffect(() => {
-    fetch("https://localhost:5000/isEmployer", {
+    fetch("https://rocky-river-97926.herokuapp.com/isEmployer", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ email: loggedInUser.email }),

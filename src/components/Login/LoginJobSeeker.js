@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import firebase from "firebase/app";
 import firebaseConfig from "./firebase.config";
 import "firebase/auth";
-import logo from "../../images/logos/logo.png";
+// import logo from "../../images/logos/logo.png";
 import googleIcon from "../../images/icons/google.png";
 
 import { UserContext } from "../../App";
@@ -58,7 +58,7 @@ const LoginJobSeeker = () => {
   const socialClasses = socialStyles();
 
   //   useEffect(() => {
-  //     fetch("https://localhost:5000/isEmployer", {
+  //     fetch("https://rocky-river-97926.herokuapp.com/isEmployer", {
   //       method: "POST",
   //       headers: { "content-type": "application/json" },
   //       body: JSON.stringify({ email: loggedInUser.email }),
@@ -97,12 +97,12 @@ const LoginJobSeeker = () => {
       <Container className="loginContainer" component="main" maxWidth="xs">
         <CssBaseline />
         <div className={classes.paper}>
-          <img
+          {/* <img
             style={{ width: "100px", paddingTop: "10px" }}
             src={logo}
             alt=""
             srcSet=""
-          />
+          /> */}
           <Typography component="h1" variant="h5">
             Login
           </Typography>
