@@ -56,11 +56,11 @@ const Navbar = () => {
             </>
           )}
 
-          <Menu.Item key="/dashboard">
+          {/* <Menu.Item key="/dashboard">
             <Link onClick={onLinkClick} to="/dashboard">
               Employer Dashboard
             </Link>
-          </Menu.Item>
+          </Menu.Item> */}
         </Menu>
       )}
     </ResponsiveAntMenu>
